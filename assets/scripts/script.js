@@ -57,7 +57,7 @@ document.getElementById('32x32').addEventListener('click', function() {
 
 document.getElementById('256x256').addEventListener('click', function() {
   let image = new Image();
-  image.src = "./data/image.png";
+  image.src = "./assets/data/image.png";
   image.onload = function() {
   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
   }
