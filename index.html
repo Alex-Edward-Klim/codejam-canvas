@@ -9,6 +9,38 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <header class="header">
+    <img class="header__menu-image" src="./assets/images/Shape.svg" alt="menu image">
+    <h1 class="header__heading">CodeJam - Canvas</h1>
+    <img class="header__menu-right-image" src="./assets/images/Shape-Right.svg" alt="menu right image">
+    <nav class="navigation-bar"></nav>
+  </header>
+  <main class="main-content">
+    <section class="tools">
+      <div class="tools__main-tools">
+        <button class="tools__button"><img class="tools__button-img" src="./assets/images/Vector.svg" alt="Paint bucket">Paint bucket</button>
+        <button class="tools__button"><img class="tools__button-img" src="./assets/images/Vector2.svg" alt="Choose color">Choose color</button>
+        <button class="tools__button"><img class="tools__button-img" src="./assets/images/Vector3.svg" alt="Move">Move</button>
+        <button class="tools__button"><img class="tools__button-img" src="./assets/images/Vector4.svg" alt="Transform">Transform</button>
+      </div>
+      <div class="tools__color-tools">
+        <button class="tools__button"><img class="tools__button-img" src="./assets/images/Ellipse.svg" alt="Current color">Current color</button>
+        <button class="tools__button"><img class="tools__button-img" src="./assets/images/Ellipse2.svg" alt="Prev color">Prev color</button>
+        <button class="tools__button"><img class="tools__button-img" src="./assets/images/Ellipse3.svg" alt="red">red</button>
+        <button class="tools__button"><img class="tools__button-img" src="./assets/images/Ellipse4.svg" alt="blue">blue</button>
+      </div>
+    </section>
+    <section class="canvas-section">
+      <canvas class="canvas" height="512" width="512">Your browser doesn't support canvas!</canvas>
+    </section>
+    <section class="size-options">
+      <div class="size-options__button-container">
+        <button class="size-options__button" id="4x4"><img class="size-options__button-img" src="./assets/images/Ellipse.svg" alt="JSON 4x4">JSON 4x4</button>
+        <button class="size-options__button" id="32x32"><img class="size-options__button-img" src="./assets/images/Ellipse.svg" alt="JSON 32x32">JSON 32x32</button>
+        <button class="size-options__button" id="256x256"><img class="size-options__button-img" src="./assets/images/Ellipse.svg" alt="PNG Image 256x256">PNG Image 256x256</button>
+      </div>
+    </section>
+  </main>
   <script src="./script.js"></script>
 </body>
 </html>
